@@ -1,0 +1,194 @@
+/* ===== base = mobile 320 ===== */
+
+.container {
+    padding: 20px;
+}
+
+.searchInput {
+    display: flex;
+    padding: 10px 10px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    outline: none;
+}
+
+
+.genre {
+    display: flex;
+}
+
+.stars {
+    padding-bottom: 20px;
+    display: flex;
+    gap: 12px;
+}
+
+.next_prevbtn{
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+/* הטקסט באמצע */
+.next_prevbtn span{
+    min-width: 120px;          /* מייצב שלא יקפוץ */
+    text-align: center;
+    font-weight: 700;
+    color: #444;
+}
+
+/* הכפתורים */
+.next_prevbtn button{
+    min-width: 90px;           /* שלא ישתנה לפי "Prev" / "Next" */
+    height: 40px;
+    padding: 0 20px;
+    border: 1px solid #d0d0d0;
+    border-radius: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+/* hover */
+.next_prevbtn button:hover{
+    transform: translateY(-2px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.10);
+
+}
+
+/* disabled */
+.next_prevbtn button:disabled{
+    transform: none;
+    box-shadow: none;
+
+}
+.next_prevbtn button:focus {
+    outline: none;
+}
+
+.card {
+    background-color: #ffffff;
+    border-radius: 16px;
+    border: 1px solid darkgray;
+    padding: 16px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 16px;
+    min-height: 520px; /* גובה של 3 כרטיסים — מונע קפיצת עמוד */
+    align-content: start;
+}
+
+.imageBox {
+    position: relative;
+}
+
+.imagePlaceholder {
+    height: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid #ccc;
+    border-radius: 7px;
+    background-color: #d9d9d9;
+}
+
+.likeBtn {
+    position: absolute;
+    top: 8px;
+    right: 10px;
+    background: white;
+    border-radius: 50%;
+    box-shadow: 0 2px rgba(0, 0, 0, 0.1);
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.likeBtn:focus {
+    outline: none;
+}
+
+.genreBadge {
+    position: absolute;
+    left: 50%; /* מתחיל מהאמצע של ההורה */
+    transform: translateX(-50%); /* מזיז חצי מהרוחב שלו אחורה */
+    bottom: -14px;
+    background: #cfcfcf;
+    border: 3px solid #bbb;
+    border-radius: 8px;
+    padding: 2px 10px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+
+.movieTitle {
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.movieYear {
+    font-size: 12px;
+    color: #666;
+    font-weight: bold;
+}
+
+.starsRow {
+    font-size: 20px;
+    margin-top: 6px;
+}
+
+/* ===== desktop 1020 ===== */
+
+@media screen and (min-width: 1020px) {
+
+    .container {
+        max-width: 1100px;
+        margin: 0 auto;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 16px;
+
+
+    }
+
+    .genre {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+    }
+
+    .imagePlaceholder {
+        height: 170px; /* תמונה גדולה יותר */
+    }
+
+    .movieTitle {
+        font-size: 18px;
+    }
+
+    .movieYear {
+        font-size: 15px;
+    }
+
+    .starsRow {
+        font-size: 22px;
+    }
+}

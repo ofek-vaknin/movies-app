@@ -1,0 +1,12 @@
+{
+  "1": { "title": "The Dark Knight", "year": 2008, "genre": "Drama", "stars": 5 },
+  "2": { "title": "Lady Bird", "year": 2017, "genre": "Comedy", "stars": 4 },
+  "3": { "title": "Inception", "year": 2010, "genre": "Action", "stars": 5 },
+  "4": { "title": "The Hobbit", "year": 2012, "genre": "Fantasy", "stars": 3 },
+  "5": { "title": "Batmen", "year": 2003, "genre": "Fantasy", "stars": 4 },
+  "6": { "title": "Bobsphog", "year": 1998, "genre": "Comedy", "stars": 5 },
+  "7": { "title": "The west", "year": 2004, "genre": "Action", "stars": 3 },
+  "8": { "title": "Fast and farious", "year": 2006, "genre": "Action", "stars": 5 },
+  "9": { "title": "Caribian", "year": 2012, "genre": "Fantasy", "stars": 4 },
+  "10": { "title": "Sun", "year": 2017, "genre": "Comedy", "stars": 1 }
+}
