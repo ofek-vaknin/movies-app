@@ -16,8 +16,23 @@
 
 .genre {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* מרכז את כל האופציות */
+    align-items: center;
+    gap: 12px 16px;          /* רווח בין אופציות (שורה/עמודה) */
+    margin-top: 10px;
 }
 
+/* כל אופציית radio */
+.genre label {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;               /* רווח בין העיגול לטקסט */
+    padding: 6px 10px;      /* מגדיל קליק */
+    border-radius: 999px;
+    cursor: pointer;
+    white-space: nowrap;    /* שלא ישבר "Action" באמצע */
+}
 .stars {
     padding-bottom: 20px;
     display: flex;
