@@ -13,7 +13,7 @@ Includes filtering, search, pagination, and persistent likes using **LocalStorag
 
 ## 📸 Screenshot
 
-![Movies App Screenshot](./screenshot.png)
+![Movies App Screenshot]([./screenshot.png](https://github.com/ofek-vaknin/movies-app/blob/main/screenshots/screenshot.png))
 
 ---
 
