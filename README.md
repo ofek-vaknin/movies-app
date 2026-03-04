@@ -7,7 +7,7 @@ Includes filtering, search, pagination, and persistent likes using **LocalStorag
 
 ## 🚀 Live Demo
 
-🔗 https://movies-app.vercel.app
+🔗[ https://movies-app.vercel.app](https://movies-app-ashy-eta.vercel.app/)
 
 ---
 
@@ -39,57 +39,6 @@ Includes filtering, search, pagination, and persistent likes using **LocalStorag
 
 ---
 
-## 📦 Getting Started (Run Locally)
-
-### 1️⃣ Clone the repository
-
-```bash
-git clone https://github.com/ofek-vaknin/movies-app.git
-```
-
-### 2️⃣ Navigate to project
-
-```bash
-cd movies-app
-```
-
-### 3️⃣ Install dependencies
-
-```bash
-npm install
-```
-
-### 4️⃣ Run the development server
-
-```bash
-npm run dev
-```
-
-The app will run on:
-
-```
-http://localhost:5173
-```
-
----
-
-## 📂 Project Structure
-
-```
-src
- ├── components
- │    └── MovieCard.jsx
- ├── App.jsx
- ├── main.jsx
- └── styles.css
-
-public
- └── movies.json
-```
-
----
-
-## 👨‍💻 Author
 
 **Ofek Vaknin**
 
